@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cloud Based Smart Parking System using IoT</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/motion-css@2.0.0/dist/motion.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  
+  <header>
+    <nav>
+      <div class="logo">SmartSpot</div>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#how-it-works">How It Works</a></li>
+        <li><a href="#demo">Demo</a></li>
+        <li><a href="#reviews">Reviews</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li class="login-link"><a href="">Login</a></li>
+      </ul>
+      <div class="search-bar">
+        <input type="text" placeholder="Search...">
+        <button><i class="fas fa-search"></i></button>
+      </div>
+    </nav>
+  </header>
+  <section id="home">
+    <div class="hero">
+       <div class="hero-content">
+        <h1>Welcome to a New Era of Smart Parking Solutions!</h1>
+        <p>Revolutionizing the way you find and book parking spaces.</p>
+        <button id="getStartedBtn" class="cta-button">Get Started</button>
+      </div>
+    </div>
+  </section>
+  <section id="features">
+    <h2>Features</h2>
+    <div class="features-grid">
+      <div class="feature-card motion-fadeIn">
+        <i class="fas fa-car"></i>
+        <h3>Real-time Availability</h3>
+        <p>Get real-time updates on available parking spaces.</p>
+      </div>
+      <div class="feature-card motion-fadeIn" data-motion-delay="0.2s">
+        <i class="fas fa-calendar-check"></i>
+        <h3>Online Booking</h3>
+        <p>Book your parking spot in advance through our app.</p>
+      </div>
+      <div class="feature-card motion-fadeIn" data-motion-delay="0.4s">
+        <i class="fas fa-wifi"></i>
+        <h3>IoT Integration</h3>
+        <p>Seamless integration with IoT devices for efficient management.</p>
+      </div>
+      <div class="feature-card motion-fadeIn" data-motion-delay="0.6s">
+        <i class="fas fa-map-marked-alt"></i>
+        <h3>Location Tracking</h3>
+        <p>Track your parked car's location easily.</p>
+      </div>
+      <div class="feature-card motion-fadeIn" data-motion-delay="0.8s">
+        <i class="fas fa-shield-alt"></i>
+        <h3>Secure Payments</h3>
+        <p>Make secure payments through our platform.</p>
+      </div>
+      <div class="feature-card motion-fadeIn" data-motion-delay="1s">
+        <i class="fas fa-user-clock"></i>
+        <h3>24/7 Support</h3>
+        <p>Get round-the-clock support for any issues or queries.</p>
+      </div>
+      <div class="feature-card motion-fadeIn" data-motion-delay="1.6s">
+        <i class="fas fa-mobile-alt"></i>
+        <h3>Mobile App Access</h3>
+        <p>Access and manage your parking bookings on the go through our mobile app.</p>
+      </div>
+      
+      <div class="feature-card motion-fadeIn" data-motion-delay="1.4s">
+        <i class="fas fa-user-friends"></i>
+        <h3>Multi-User Access</h3>
+        <p>Allow multiple users to access and manage parking reservations.</p>
+      </div>
+    </div>
+  </section>
+  <section id="how-it-works">
+    <h2>How It Works</h2>
+    <div class="how-it-works-content">
+      <div class="step">
+        <i class="fas fa-tools"></i>
+        <h3>Step 1</h3>
+        <p>Install our smart sensors in parking spaces.</p>
+      </div>
+      <div class="step">
+        <i class="fas fa-cloud"></i>
+        <h3>Step 2</h3>
+        <p>Connect sensors to the cloud platform.</p>
+      </div>
+      <div class="step">
+        <i class="fas fa-tachometer-alt"></i>
+        <h3>Step 3</h3>
+        <p>Monitor and manage parking spaces in real-time.</p>
+      </div>
+      <div class="step">
+        <i class="fas fa-battery-full"></i>
+        <h3>Step 4</h3>
+        <p>Optimize energy usage with smart power management.</p>
+      </div>
+      <div class="step">
+        <i class="fas fa-chart-line"></i>
+        <h3>Step 5</h3>
+        <p>Analyze data to improve parking efficiency and user experience.</p>
+      </div>
+      <div class="step">
+        <i class="fas fa-mobile-alt"></i>
+        <h3>Step 6</h3>
+        <p>Enable mobile app integration for seamless user interactions.</p>
+      </div>
+    </div>
+  </section>
+  
+  <section id="demo">
+    <h2>Demo</h2>
+    <div class="video-wrapper">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/rWgZIDMuzLk?autoplay=1" frameborder="0" allowfullscreen></iframe>
+    </div>
+</section>
+
+  <section id="reviews">
+    <h2>What Our Users Say</h2>
+    <div class="review-carousel">
+      <div class="review">
+        <div class="review-content">
+          <p>"The integration with IoT devices makes it incredibly efficient and user-friendly."</p>
+          <span class="rating">⭐⭐⭐⭐⭐</span>
+        </div>
+        <div class="review-author">
+          <img src="user1.avif" alt="User 1" style="width: 50px; height: 50px; border-radius: 50%;">
+          <p>Aarav Singh</p>
+        </div>
+      </div>
+      <div class="review">
+        <div class="review-content">
+          <p>"A game-changer for urban parking! Real-time updates save me so much time."</p>
+          <span class="rating">⭐⭐⭐⭐⭐</span>
+        </div>
+        <div class="review-author">
+          <img src="user2.avif" alt="User 2" style="width: 50px; height: 50px; border-radius: 50%;">
+          <p>Arjun Sharma</p>
+        </div>
+      </div>
+      <div class="review">
+        <div class="review-content">
+          <p>"The secure payment feature is fantastic. I feel confident using it every time."</p>
+          <span class="rating">⭐⭐⭐⭐⭐</span>
+        </div>
+        <div class="review-author">
+          <img src="user3.avif" alt="User 3" style="width: 50px; height: 50px; border-radius: 50%;">
+          <p>Vedant Patel</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <div class="contact-form">
+      <form id="contactForm">
+        <div class="form-step active">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" placeholder="Write your Name" required>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" placeholder="Write your Email" required>
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" placeholder="Write your message..." required></textarea>
+        </div>
+        
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </section>
+    <footer>
+    <p>&copy; 2024 SmartSpot. All rights reserved.</p>
+    <div class="social-media">
+      <a href="https://www.facebook.com/profile.php?id=100058646344972"><i class="fab fa-facebook"></i></a>
+      <a href="https://github.com/abhisheksingh2125"><i class="fab fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/abhishek-pratap-singh-2b2752229/"><i class="fab fa-linkedin"></i></a>
+      <a href="https://www.instagram.com/____.abhi_rockerz_211.____/"><i class="fab fa-instagram"></i></a>
+    </div>
+    
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script>
+     document.getElementById('contactForm').addEventListener('submit', function(event) {
+      event.preventDefault();  
+
+      Swal.fire({
+        title: "Are you sure?",
+        text: "Are you sure you want to submit this form?",
+        icon: "warning",
+        showCancelButton: true,
+        confirmButtonColor: "#3085d6",
+        cancelButtonColor: "#d33",
+        confirmButtonText: "Yes, Submit it!"
+      }).then((result) => {
+        if (result.isConfirmed) {
+          Swal.fire({
+            title: "Submitted!",
+            text: "Your form has been submitted.",
+            icon: "success"
+          });
+           document.getElementById('contactForm').reset();
+        }
+      });
+    });
+    
+  </script>
+  <script>
+    document.getElementById('getStartedBtn').addEventListener('click', async function() {
+      const { value: mobile } = await Swal.fire({
+        title: "Mobile Number",
+        input: "tel",
+        inputLabel: "Your mobile number",
+        inputPlaceholder: "Enter your mobile number",
+        inputAttributes: {
+          pattern: "[0-9]{10}",
+          maxlength: "10",
+          minlength: "10"
+        }
+      });
+  
+      if (mobile) {
+        Swal.fire(`Entered mobile number: ${mobile}`);
+        
+        const { value: password } = await Swal.fire({
+          title: "Enter your password",
+          input: "password",
+          inputLabel: "Password",
+          inputPlaceholder: "Enter your password",
+          inputAttributes: {
+            maxlength: "10",
+            autocapitalize: "off",
+            autocorrect: "off"
+          }
+        });
+  
+        if (password) {
+          Swal.fire(`Entered password: ${password}`);
+          
+          // Show success toast for signed in
+          const Toast = Swal.mixin({
+            toast: true,
+            position: "top-end",
+            showConfirmButton: false,
+            timer: 3000,
+            timerProgressBar: true,
+            didOpen: (toast) => {
+              toast.addEventListener('mouseenter', Swal.stopTimer);
+              toast.addEventListener('mouseleave', Swal.resumeTimer);
+            }
+          });
+  
+          Toast.fire({
+            icon: "success",
+            title: "Signed in successfully"
+          });
+  
+          // Here you can proceed with further actions after successful sign-in
+        }
+      }
+    });
+  </script>
+  
+   
+  </body>
+</html>
